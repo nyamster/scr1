@@ -102,9 +102,9 @@
 #define INTERRUPT_HANDLER j other_exception /* No interrupts should occur */
 
 #define RVTEST_CODE_BEGIN                                               \
-        .org 0x600,0;                                                   \
+        .org 0x300,0;                                                   \
         MSG_TRAP:                                                       \
-        .string "instructionillegal";                                   \
+        .string "misalign trap";                                        \
         .section .text.init;                                            \
         .balign  64;                                                    \
         .weak stvec_handler;                                            \
