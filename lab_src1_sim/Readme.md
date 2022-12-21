@@ -12,7 +12,7 @@
 
 ## Результаты работы
 
-![image](https://github.com/nyamster/scr1/tree/lab_scr1_sim/lab_src1_sim/picture.png)
+![image](lab_src1_sim/picture.png)
 
 Результаты симуляции: [sim_results.txt](sim_results.txt) и [simx.vcd](simx.vcd)  
 Дамп-файл теста: [ma_fetch.dump](ma_fetch.dump)
